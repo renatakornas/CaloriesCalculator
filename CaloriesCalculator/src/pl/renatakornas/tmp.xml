@@ -1,0 +1,14 @@
+//////////////////// Dodawanie produktow
+//        ArrayList<Product> productsBase = new ArrayList<>();
+//        productsBase.add(new Product("banan", 88));
+//        productsBase.add(new Product("brokul", 88));
+//        productsBase.add(new Product("jajko", 88));
+//        productsBase.add(new Product("owsianka", 88));
+//        productsBase.add(new Product("czekolada", 88));
+//         productsBase.add(new Product("ryz", 188));
+
+// Wczytywanie produktow do ProductRepository (do pliku xml)
+//        for (Product prod : productsBase) {
+//            ProductRepository.setProduct(prod);
+//        }
+//////////////////// 
