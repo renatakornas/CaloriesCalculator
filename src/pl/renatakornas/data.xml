@@ -1,0 +1,30 @@
+<object-stream>
+  <product>
+    <name>kasza gryczana</name>
+    <calorific>188.0</calorific>
+  </product>
+  <product>
+    <name>ryz</name>
+    <calorific>188.0</calorific>
+  </product>
+  <product>
+    <name>jajko</name>
+    <calorific>88.0</calorific>
+  </product>
+  <product>
+    <name>czekolada</name>
+    <calorific>88.0</calorific>
+  </product>
+  <product>
+    <name>brokul</name>
+    <calorific>88.0</calorific>
+  </product>
+  <product>
+    <name>owsianka</name>
+    <calorific>88.0</calorific>
+  </product>
+  <product>
+    <name>banan</name>
+    <calorific>88.0</calorific>
+  </product>
+</object-stream>
