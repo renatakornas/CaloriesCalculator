@@ -47,7 +47,12 @@ public class ProductRepository {
     static Product getProduct(String productName) {
         try {
             loadData();
+            // (FileNotFoundException | EOFException ex) można wyłapać kilka wyjątków w jednej instrukcji catch, pod warunkiem, że te klasy nie są swoimi podklasami, albo nadklasami
+        } catch (IOException ex) {
+            System.out.println("Błąd pliku");
+            System.out.println(ex.getMessage());
         } catch (ClassNotFoundException ex) {
+            System.out.println("Klasy nie znaleziono");
             Logger.getLogger(ProductRepository.class.getName()).log(Level.SEVERE, null, ex);
         } catch (Exception ex) {
             Logger.getLogger(ProductRepository.class.getName()).log(Level.SEVERE, null, ex);
